@@ -1,0 +1,24 @@
+.container{
+	align-items: center;
+	width: 100%;
+}
+.resume{
+	width:80%;
+	margin:auto;
+	font-family: Perpetua;
+	font-size: 23px;
+}
+.resumeheader{
+	text-align:center;
+}
+.resumesummary-container{
+	width: 100%;
+	margin:auto;
+}
+.resumesummary{
+	font-family: Perpetua;
+	font-size: 25px;
+}
+.technicalexp{
+	
+}

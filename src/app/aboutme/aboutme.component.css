@@ -1,0 +1,46 @@
+.container{
+	align-items: center;
+	font-family: Perpetua;
+	font-size: 23px;
+	width:100%;
+}
+.container h1{
+	text-align: center;
+}
+.about-content-left{
+	width: 100%;
+	padding: 20px;
+	min-height: 250px;
+	
+}
+.about-content-right{
+	/*width: 100%;*/
+	padding: 20px;
+	min-height: 250px;
+	/*background-color: grey;*/
+	
+}
+.right{
+	width:68%;
+	float:right;
+	text-align: right;
+	/*padding:20px;*/
+}
+.left{
+	width:68%;
+	/*min-height: 300px;*/
+	float:left;
+	text-align: left;
+}
+.about-content-left img{
+	
+	width:30%;
+	/*height: 170px;*/
+	float:right;
+	
+}
+.about-content-right img{
+	width:30%;
+	/*height: 170px;*/
+	float:left;
+}

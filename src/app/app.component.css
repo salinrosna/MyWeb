@@ -1,0 +1,102 @@
+.myweb
+{
+font-size: 20px;
+font-family: Perpetua;
+
+}
+.main{
+	text-align:center;
+	width:40%;
+	padding: 50px;
+	min-height: 100%;
+	background-color:#d6d6c2;
+	float: left;
+	position: fixed;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+}
+.body{
+ 	width: 60%;
+ 	float:right;
+ }
+.body-content{
+	
+	padding: 10px;
+}
+ .overview {
+	background-color: #BABA90;
+ }
+ .main-content{
+	 width: 100%;
+	 min-height: 250px;
+	 padding: 20px;
+ }
+.right{
+	float: right;
+	width:75%;
+	text-align: right;
+}
+.left{
+	float: left;
+	width:75%;
+	
+}
+.banner{
+	border-radius: 200px;
+	width: 350px;
+	/*border: 5px solid #d9d9d9;*/
+	/*box-shadow: 10px 10px #b3b3b3;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+}
+/*.body div img{
+	float:left;
+	width: 22%;
+	margin-left: 40px;
+	margin-top: 40px;  
+	border-radius:40px;
+}*/
+.overview p{
+	font-size: 25px;
+}
+
+.welcome
+{
+	/* opacity: 0; */
+	font-family:fantasy;
+	font-size: 75px;
+	text-align:center;
+	min-height: 900px;
+}
+
+
+.social{
+	padding:10px;
+}
+.social div{
+	padding:10px;
+	display: inline;
+}
+.social div img{
+border-radius: 4px;
+}
+.navicon {
+    padding: 5px;
+    color: black;
+    font-size: 25px;
+}
+
+.icon{
+padding:10px;
+}
+.glyphicon{
+	font-size: 25px;
+	color:black;
+	padding: 10px;
+}
+
+
+ p{
+ 	font-size: 40px;
+ 	font-family:Perpetua;
+ }
+ 
+ 
