@@ -6,12 +6,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { ResumeComponent } from './resume/resume.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ResumeComponent,
-    AboutmeComponent
+    AboutmeComponent,
+    PortfolioComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -24,6 +28,14 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
     {
       path:'aboutme',
       component:AboutmeComponent
+    },
+    {
+      path:'portfolio',
+      component:PortfolioComponent
+    },
+    {
+      path:'home',
+      component:HomeComponent
     }
     ])
   ],

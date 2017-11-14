@@ -8,19 +8,23 @@
 		</div>
 		<div class="header">
 
-			<div ><p style="font-family:fantasy;"><b>--Salin Rosna--</b></p>
+			<div ><p style="font-family:fantasy;"><b>Salin Rosna</b></p>
 
 				<div class="social">
-					<div>
+					<h2><b>Get In Touch</b></h2>
+					<!-- <div>
 						<img alt="facebook" src="assets/fb.png">
 					</div>
 					<div>
 						<img alt="facebook" src="assets/ln.png">
+						<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+						<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/salinrosna" data-format="click" data-related="false"></script>
 					</div>
 					<div>
 						<img alt="facebook" src="assets/tw.png">
-					</div>
-				</div><br>
+					</div> -->
+				</div>
+				
 
 			</div>
 		</div>
@@ -28,10 +32,10 @@
 			<nav class="navbar">
 
 				<ul class="nav">
-					<li><a class="navicon" routerLink=""(click)= "viewhome()"><span class="glyphicon glyphicon-home"></span>Home</a></li>
-					<li><a class="navicon" routerLink="/aboutme" (click)= "viewabout()"><span class="glyphicon glyphicon-user"></span>About Me</a></li>
-					<li><a class="navicon" routerLink="/resume" (click)= "viewresume()"><span class="glyphicon glyphicon-file"></span>Resume</a></li>
-					<!-- <li><a class="navicon" routerLink="" (click)= "viewportfolio()"><span class="glyphicon glyphicon-briefcase"></span>Portfolio</a></li> -->
+					<li><a class="navicon" routerLink="/home"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+					<li><a class="navicon" routerLink="/aboutme"><span class="glyphicon glyphicon-user"></span>About Me</a></li>
+					<li><a class="navicon" routerLink="/resume" ><span class="glyphicon glyphicon-file"></span>Resume</a></li>
+					<li><a class="navicon" routerLink="/portfolio" ><span class="glyphicon glyphicon-briefcase"></span>Portfolio</a></li>
 
 				</ul>
 
@@ -39,39 +43,10 @@
 		</div>
 
 	</div>
-	<div class="body" >
-		<div *ngIf="hidemainbody" class="body-content">
-			<div class="welcome" @headanimation>
-				<h1 class="hello"><b>--Welcome--</b></h1>
-			</div>
-			
-			<div @explainerAnim @explainerAnimation class="overview">
-				<div class="main-content" >
-					<div class="right">
-						<h2><b>Hello, I'm Salin Rosna</b></h2>
-						<p>I am a Web Developer, currently working for MVP Studio Auckland. I am looking for a challenging position where I can contribute to the growth of the organization in every way possible. I want to set higher goals while meeting and exceeding the current ones. </p>
+	<div class="body" >	
+					<div class="welcome" @headanimation>
+						<h1 class="hello"><b>--Welcome--</b></h1>
 					</div>
-				</div>
-				<div  class="main-content">
-					<div class="left">
-						<h2><b>My Career</b></h2>
-						<p>I am Working for MVP Studio since March 2017 as a Software Developer, currently working with the project Alex Swift Emergency Contact using .Net Framework. Before joining MVP Studio I was working with Morgan Mckinley as a Web Developer where I used Drupal CMS version 7</p>
-					</div>
-				</div>
-				<div   class="main-content">
-					<div class="right">
-						<h2><b>Skills and other Interests</b></h2>
-						<p>I’m extremely passionate about web development in all it’s forms from back end programming (.Net Framework, C#, MS SQL Database) to front end engineering(HTML, CSS, and AngularJS/Javascript). Aside from Web Development, I enjoy spending time with my husband and family, hangout with friends, watching movies and reading.</p>
-					</div>
-				</div>
-				<div  class="main-content">
-					<div class="left">
-						<h2><b>About this blog</b></h2>
-						<p>This blog is Developed from Scratch using HTML, CSS and Angular 4 and Bootstrap4. It is still on upgrading process, to use a new stack of web technologies.</p>
-					</div>
-				</div>
-			</div>
-		</div>
 		<router-outlet></router-outlet>
 	</div>
 

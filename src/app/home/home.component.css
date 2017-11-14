@@ -1,0 +1,22 @@
+.body-content{
+	
+	padding: 10px;
+}
+/* .overview {
+	background-color: #BABA90;
+ } */
+ .main-content{
+    width: 100%;
+    min-height: 250px;
+    padding: 20px;
+}
+.right{
+   float: right;
+   width:75%;
+   text-align: right;
+}
+.left{
+   float: left;
+   width:75%;
+   
+}
